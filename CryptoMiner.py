@@ -1,5 +1,6 @@
 import hashlib
 import time
+#define function
 def proof_of_work(block, difficulty):
     target = '0' * difficulty
     bitcoin = 0
